@@ -12,11 +12,18 @@ function handleThumbnailClick(e) {
 
   const link = e.target.closest('.list-item__link');
 
-  if (link) {
+  if (link && link.href) {
     updateLargeImage(link.href);
   }
 }
 
 function updateLargeImage(src) {
-  largeImg.src = src;
+  try {
+    const url = new URL(src);
+
+    largeImg.src = url.href;
+  } catch (error) {
+    // eslint-disable-next-line no-console
+    console.warn('Неверный URL:', src);
+  }
 }
