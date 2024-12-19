@@ -24,4 +24,4 @@
 
 ### Reference Image
 
-<img src="./src/images/example.gif" alt="reference image" width="300px" />
+<img src="./src/images/example.gif" alt="reference image" width="500px" />
