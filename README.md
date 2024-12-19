@@ -23,5 +23,4 @@
 - [Demo](https://AndriiZakharenko.github.io/gallery/)
 
 ### Reference Image
-
 <img src="./src/images/example.gif" alt="reference image" width="500px" />
