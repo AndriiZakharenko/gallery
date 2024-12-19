@@ -1,19 +1,27 @@
-### Task: Create a gallery
+# Create a gallery
 
-Created an image gallery where the main image changes by the click on a thumbnail.
+### Description
 
-**Requirements:**
-- A click can be either on a small `img` image or on `a` outside of it. `event.target`
- will be, respectively, either `img` or `a`.
+- Created an image gallery where the main image changes by the click on a thumbnail
 
-**Notes:**
+### Stack
 
-- Use event delegation.
-- You must only modify the file `src/scripts/main.js`.
+- HTML (BEM)
+- CSS
+- JS
 
-### Gif of result
-![Gif example](./src/images/example.gif)
+### Tools
 
-## Demo Links
+- ESlint
+- Prettier
+- Cypress
+- Mochawesome
+- Parcel
 
-- [DEMO LINK](https://AndriiZakharenko.github.io/js_gallery_DOM/)
+### Demo links
+
+- [Demo](https://AndriiZakharenko.github.io/gallery/)
+
+### Reference Image
+
+<img src="./src/images/example.gif" alt="reference image" width="300px" />
