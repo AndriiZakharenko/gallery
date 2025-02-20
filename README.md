@@ -1,26 +1,30 @@
-# Create a gallery
+# Create a Gallery
 
-### Description
+## 🎮 About the Project
+This project implements an interactive image gallery where the main image updates dynamically when clicking on a thumbnail. The gallery enhances the user experience by providing a smooth and intuitive way to browse images.
 
-- Created an image gallery where the main image changes by the click on a thumbnail
+## 🚀 Tech Stack
+- **HTML** (BEM methodology for structured markup)
+- **CSS** (Basic styling)
+- **JavaScript** (For handling image selection and updates)
 
-### Stack
+## 🛠️ Tools & Dependencies
+- **ESLint** – Ensuring code quality  
+- **Prettier** – Code formatting for readability  
+- **Cypress** – End-to-end testing  
+- **Mochawesome** – Test reporting  
+- **Parcel** – Web application bundler  
 
-- HTML (BEM)
-- CSS
-- JS
+## 📌 Features
+✅ Displays a main image with a set of thumbnails  
+✅ Updates the main image when clicking on a thumbnail  
+✅ Smooth transition between image changes  
 
-### Tools
+## 🌐 Demo
+🔗 [Live Demo](https://AndriiZakharenko.github.io/gallery/)
 
-- ESlint
-- Prettier
-- Cypress
-- Mochawesome
-- Parcel
-
-### Demo links
-
-- [Demo](https://AndriiZakharenko.github.io/gallery/)
-
-### Reference Image
+## 📸 Reference Image  
 <img src="./src/images/example.gif" alt="reference image" width="500px" />
+
+## 📜 License
+This project is forked from 💻 [Mate Academy](https://github.com/mate-academy/js_gallery_DOM)
